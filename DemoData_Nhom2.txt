@@ -1,0 +1,10 @@
+Typing text
+Delete character
+Insert Image
+Change Font
+Format Table
+Click Button
+Resize Shape
+Paste Content
+Undo Format
+Apply Style

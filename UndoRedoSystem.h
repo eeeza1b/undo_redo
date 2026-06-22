@@ -1,4 +1,4 @@
-﻿
+
 
 #ifndef UNDOREDOSYSTEM_H
 #define UNDOREDOSYSTEM_H
@@ -82,7 +82,7 @@ private:
 
 public:
     UndoRedoManager();
-    void executeAction(string actionName);
+    void executeAction(string actionName, bool silent = false);
     void undo();
     void redo();
     void showHistory();

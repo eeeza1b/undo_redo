@@ -82,7 +82,7 @@ private:
 
 public:
     UndoRedoManager();
-    void executeAction(string actionName, bool silent = false);
+    void executeAction(string actionName);
     void undo();
     void redo();
     void showHistory();

@@ -33,7 +33,7 @@ void UndoRedoManager::executeAction(string actionName, bool silent)
 
     log.clearFuture(log.getCurrent());  
     // xoa sach tat ca cac hanh dong nam phia sau con tro hien tai (vd: A-> B-> C neu undo 2 lan thi se tro lai A 
-    // thuc thi hanh dong moi la D. khi lich su se la A va D <-(hien tai) 
+    // thuc thi hanh dong moi la D. Khi do lich su se la A va D <-(hien tai) 
 
     log.addLog(act);  //  them hanh dong moi ngay sau con tro hien tai
     undoStack.push(act); // cho vao stack khi can hanh dong se ly ra dau tien
